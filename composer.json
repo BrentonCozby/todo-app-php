@@ -1,6 +1,16 @@
 {
+    "name": "root/todo-app-php",
+    "description": "A todo app that uses php and mysql",
+    "type": "web-app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brenton Cozby",
+            "email": "brenton.cozby@gmail.com"
+        }
+    ],
     "require": {
-        "jenssegers/blade": "^1.1",
-        "vlucas/phpdotenv": "^2.4"
+        "vlucas/phpdotenv": "^2.4",
+        "jenssegers/blade": "^1.1"
     }
 }
