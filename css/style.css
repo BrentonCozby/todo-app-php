@@ -1,0 +1,32 @@
+.app {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-title {
+    text-align: center;
+}
+
+.task-name {
+    display: inline-block;
+}
+
+.task-name.completed {
+    text-decoration: line-through;
+}
+
+.task-forms-container {
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+}
+
+.task-form {
+    display: inline-block;
+}
+
+.delete-btn {
+    font-size: .6em;
+    padding: .3em .4em;
+}
