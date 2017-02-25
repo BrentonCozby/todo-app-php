@@ -8,8 +8,18 @@
     text-align: center;
 }
 
+.task {
+    text-align: justify;
+    padding: 0;
+}
+
+.task-name-form {
+    width: 100%;
+}
+
 .task-name {
     display: inline-block;
+    padding: 8px;
 }
 
 .task-name.completed {
@@ -22,11 +32,10 @@
     right: 10px;
 }
 
-.task-form {
-    display: inline-block;
-}
-
-.delete-btn {
-    font-size: .6em;
-    padding: .3em .4em;
+.task-name-btn {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    width: 100%;
+    text-align: left;
 }
